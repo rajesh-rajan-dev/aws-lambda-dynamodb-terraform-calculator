@@ -1,0 +1,15 @@
+cd /path/to/calculator-app      # go into your project folder
+
+cat > .gitignore << 'EOF'
+node_modules/
+npm-debug.log*
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+terraform/lambda.zip
+.env
+*.pem
+.DS_Store
+EOF
